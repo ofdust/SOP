@@ -39,6 +39,7 @@ nav p:hover {
 #letters {
 	display: inline-block;
 	margin-left: 100px;
+	margin-bottom: 50px;
 }
 
 h2 {
@@ -56,4 +57,34 @@ h2 {
 	background-color: black;
 	color: #20C20E;	
 
+}
+a {
+	color: #9975b9;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.info {
+	margin-left: 25px;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+p b {
+	color: white;
+	font-weight: normal;
+}
+
+.signature {
+	margin-left: 70px;
+}
+.name {
+	font-family: 'Orbitron', sans-serif;
+	color: white;
+	font-size: 1.4em;
 }
