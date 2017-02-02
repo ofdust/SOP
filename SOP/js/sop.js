@@ -15,8 +15,8 @@ function bashActive() {
 		if (active = "githubletter") {
 			$("#github").slideUp(500);
 		}
-		$("#bash").slideDown(500);
-		active = "bashletter";
+	$("#bash").slideDown(500);
+	active = "bashletter";
 	}
 }
 
@@ -30,8 +30,8 @@ function gitActive() {
 			$("#github").slideUp(500);
 			console.log("slide up github");
 		}
-		$("#git").slideDown(500);
-		active = "gitletter";
+	$("#git").slideDown(500);
+	active = "gitletter";
 	}
 }
 
@@ -44,8 +44,8 @@ function githubActive() {
 		if (active = "gitletter") {
 			$("#git").slideUp(500);
 		}
-		$("#github").slideDown(500);
-		active = "githubletter";
+	$("#github").slideDown(500);
+	active = "githubletter";
 	}
 }
 
